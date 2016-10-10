@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
+
+body {
+  background-image: url('/images/background_grunge.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main_body {
+  width: 900px;
+  height: 110%;
+  margin: auto;
+  background-color: #d8cbc5;
+  box-shadow: inset 3px 3px 30px 2px #fcf0ea;
+  border-style: solid;
+  border-color: #18121e;
+  border-width: 2px;
+  border-radius: 8px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.nav_bar {
+  height: 50px;
+  width: 100%;
+  background-color: #984b43;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_bar h1 {
+  font-family: 'Permanent Marker';
+  font-size:25px;
+  color: #18121e;
+}
+
+.navy {
+   color: #18121e;
+}
+.gunmetal {
+   color: #233237;
+}
+.rusty-red {
+   color: #984b43;
+}
+.warm-yellow {
+   background-color: #eac67a;
+}
+
+/* The starting CSS styles for the enter animation */
+/* start 'enter' transition */
+main.ng-enter {
+    transition: 1.4s;
+
+    opacity: 0;
+}
+
+main.ng-enter-active {
+    opacity: 1;
+}

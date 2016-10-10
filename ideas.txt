@@ -1,0 +1,20 @@
+paralax effects
+snapping widow to posistion
+click image have it do the darken background thing and make bigger
+layering with scroll
+typing animation?
+glow on focus
+photo album
+simple on key press games
+on mouse over drop down menue
+
+poke api
+
+
+
+
+color Pallet
+#18121e dark dark blue
+#233237 gunmetal
+#984b43 rusty red
+#eac67a warm yellow

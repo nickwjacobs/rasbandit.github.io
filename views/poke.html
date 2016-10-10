@@ -1,0 +1,14 @@
+<div class="body-pokemon">
+   <div class="header">
+         <img class='header' src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" alt="pokemon" />
+   </div>
+</br>
+   <div class="pokemon">
+      <h2>Type any number to get the corrisponsing pokemon</h2>
+      <form ng-submit="getPokemon(message)">
+         <input class="form-control text-box" type="text" ng-model="message" placeholder="1-721">
+     </form>
+      <poke-directive single-pokemon='pokemon' class='warm-yellow'></poke-directive>
+   </div>
+
+</div>

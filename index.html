@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='ppApp'>
+   <head>
+      <meta charset="utf-8">
+      <title>Rando Calrision</title>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/master.css">
+      <link rel="stylesheet" href="/css/poke.css">
+      <link rel="stylesheet" href="/css/paralax.css">
+   </head>
+   <body ng-controller='mainCtrl'>
+     <div class="main_body">
+       <div class="nav_bar">
+         <a ui-sref="poke"><h1>Poke Api</h1></a>
+         <a ui-sref="paralax"><h1>Paralax</h1></a>
+       </div>
+
+       <main ui-view>
+
+       </main>
+
+
+     </div>
+
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+     <script src='./js/app.js'></script>
+     <script src='./js/poke/pokeCtrl.js'></script>
+     <script src='./js/poke/pokeService.js'></script>
+     <script src='./js/mainCtrl.js'></script>
+     <script src='./js/paralax/paralaxCtrl.js'></script>
+     <script src='./js/poke/pokeDirective.js'></script>
+   </body>
+</html>
