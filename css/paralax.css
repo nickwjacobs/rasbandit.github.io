@@ -1,27 +1,63 @@
 .one {
    text-align: center;
-   font-size: 575%;
-   color: #4a4444;
+   font-size: 275%;
+   color: blue;
    text-transform: uppercase;
    letter-spacing: 1%;
-   margin: 45% 0;
 }
 
 .two {
    text-align: center;
    font-size: 275%;
-   color: #e5e5e5;
+   color: yellow;
    text-transform: uppercase;
    letter-spacing: 1%;
 }
 
+.paralax-one {
+   height: 160vh;
+   background: url('https://upload.wikimedia.org/wikipedia/commons/1/16/STS122_Atlantis.jpg')  repeat fixed 100%;
+}
 
-.paralax {
-   background: url('http://s3.amazonaws.com/everystockphoto/fspid31/31/20/07/3/tileable-classic-nebula-3120073-o.jpg')  repeat fixed 100%;
 
+.paralax-two {
+   background: url('https://i.ytimg.com/vi/bZUpggRKOms/maxresdefault.jpg')  repeat 100%;
 }
 
 .paralax-inner {
-   padding-top: 10%;
-   padding-bottom: 10%;
+   padding-top: 30%;
+   padding-bottom: 30%;
+   margin-bottom: 150px;
 }
+
+.paralax-inner-mid {
+   padding-top: 30%;
+   padding-bottom: 30%;
+   margin-top: 150px;
+}
+
+/*.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}*/
