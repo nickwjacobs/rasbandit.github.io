@@ -7,12 +7,14 @@
       <link rel="stylesheet" href="./css/master.css">
       <link rel="stylesheet" href="/css/poke.css">
       <link rel="stylesheet" href="/css/paralax.css">
+      <link rel="stylesheet" href="/css/portfolio.css">
    </head>
    <body ng-controller='mainCtrl'>
      <div class="main_body">
        <div class="nav_bar">
          <a ui-sref="poke"><h1>Poke Api</h1></a>
          <a ui-sref="paralax"><h1>Paralax</h1></a>
+         <a ui-sref="portfolio"><h1>Portfolio</h1></a>
        </div>
 
        <main ui-view>
@@ -33,5 +35,6 @@
      <script src='./js/mainCtrl.js'></script>
      <script src='./js/paralax/paralaxCtrl.js'></script>
      <script src='./js/poke/pokeDirective.js'></script>
+     <script src='./js/portfolio/portfolioCtrl.js'></script>
    </body>
 </html>

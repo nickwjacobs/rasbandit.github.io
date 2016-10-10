@@ -14,5 +14,10 @@ $stateProvider
    controller: 'paralaxCtrl',
    url: '/paralax'
  })
+ .state('portfolio', {
+    templateUrl: 'js/portfolio/portfolio-view.html',
+    controller: 'portfolioCtrl',
+    url: '/portfolio'
+})
 
 })
